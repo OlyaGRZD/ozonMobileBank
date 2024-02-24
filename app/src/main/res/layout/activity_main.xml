@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/greybg">
+
+        <ImageView
+            android:id="@+id/ozonLogo"
+            android:layout_width="166dp"
+            android:layout_height="207dp"
+            android:layout_marginTop="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_bank_logo" />
+
+        <EditText
+            android:id="@+id/nameTW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/gteestiprodisplay_regular"
+            android:hint="Введите имя"
+            android:inputType="text"
+            android:layout_marginTop="16sp"
+            android:textColorHint="@color/lightGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ozonLogo" />
+
+        <EditText
+            android:id="@+id/cardTW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:ems="10"
+            android:fontFamily="@font/gteestiprodisplay_regular"
+            android:hint="Введите номер карты"
+            android:inputType="number"
+            android:textColorHint="@color/lightGrey"
+            app:layout_constraintEnd_toEndOf="@+id/nameTW"
+            app:layout_constraintStart_toStartOf="@+id/nameTW"
+            app:layout_constraintTop_toBottomOf="@+id/nameTW" />
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:fontFamily="@font/gteestiprodisplay_medium"
+            android:text="Зарегистрироваться"
+            app:layout_constraintEnd_toEndOf="@+id/cardTW"
+            app:layout_constraintStart_toStartOf="@+id/cardTW"
+            app:layout_constraintTop_toBottomOf="@+id/cardTW"
+            android:textSize="16sp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

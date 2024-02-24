@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greybg">#1d2024</color>
+    <color name="lightGrey">#c8c8c7</color>
+    <color name="cardViewGrey">#2a2d31</color>
+    <color name="green">#50db89</color>
+    <color name="red">#f94d4d</color>
+    <color name="strangeBlue">#193244</color>
+
+
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ozonMobile</string>
+    <string name="my_finances">Мои финансы</string>
+    <string name="ruble_acc">Рублёвый счет</string>
+    <string name="balance_template">%.2f</string>
+    <string name="finances">Финансы</string>
+    <string name="payments">Платежи</string>
+    <string name="chat">Чат</string>
+    <string name="bonuses">Бонусы</string>
+    <string name="operations">Все операции</string>
+    <string name="transOrganisation">Пятёрочка</string>
+    <string name="transType">Покупка</string>
+    <string name="transSign">+</string>
+    <string name="transAmount">998 ₽</string>
+    <string name="transDate">5 февраля</string>
+    <string name="cashbackCategort">5% В ресторанах и кафе</string>
+    <string name="userName">Ольга</string>
+    <string name="message">Откройте мне вклад!</string>
+    <string name="supportName">Поддержка</string>
+    <string name="supportMessage">Вам одобрен вклад с годовой ставкой 14%</string>
+
+</resources>
