@@ -33,10 +33,10 @@ class TransactionActivity : AppCompatActivity() {
 
         // Добавь тестовые данные, например:
         items.add(DateItem("5 февраля"))
-        items.add(Transaction("ООО Рога и Копыта", "Покупка", "+","1000 руб"))
-        items.add(Transaction("ИП Иванов", "Продажа", "-","500 руб"))
+        items.add(Transaction("ООО Рога и Копыта", "Покупка", "-","1000 руб"))
+        items.add(Transaction("ИП Иванов", "Перевод", "+","500 руб"))
         items.add(DateItem("2 февраля"))
-        items.add(Transaction("ООО Пример", "Покупка", "+","800 руб"))
+        items.add(Transaction("ООО Пример", "Покупка", "-","800 руб"))
         // ...
 
         return items

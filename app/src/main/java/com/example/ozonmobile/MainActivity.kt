@@ -25,9 +25,12 @@ class MainActivity : AppCompatActivity() {
 
         val database = AppDatabase.getDb(this)
 
-        binding.registerBtn.setOnClickListener {
 
-            if (binding.nameTW.toString().isNotEmpty() && binding.cardTW.toString().isNotEmpty()) {
+
+        binding.registerBtn.setOnClickListener {
+            val name = binding.nameTW.text.toString().trim()
+            val card = binding.cardTW.text.toString().trim()
+            if (name.isNotEmpty() && card.isNotEmpty()) {
                 val balance = (1000..10000).random().toDouble()
                 val user = User(binding.cardTW.text.toString().toLong(),
                     binding.nameTW.text.toString(),

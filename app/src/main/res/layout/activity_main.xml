@@ -33,6 +33,7 @@
             android:inputType="text"
             android:layout_marginTop="16sp"
             android:textColorHint="@color/lightGrey"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/ozonLogo" />
@@ -45,6 +46,7 @@
             android:ems="10"
             android:fontFamily="@font/gteestiprodisplay_regular"
             android:hint="Введите номер карты"
+            android:textColor="@color/white"
             android:inputType="number"
             android:textColorHint="@color/lightGrey"
             app:layout_constraintEnd_toEndOf="@+id/nameTW"
